@@ -19,6 +19,6 @@ for profile in profiles:
 connection.execute("DELETE FROM profiles WHERE id = 10")
 
 # update
-connection.execute("UPDATE profiles SET username='Nagah Shaban Shinawy' WHERE id=9")
+connection.execute("UPDATE profiles SET username='Jone Jose' WHERE id=5")
 connection.commit()
 connection.close()
