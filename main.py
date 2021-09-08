@@ -11,5 +11,6 @@ for profile in profiles:
     prf = Profile(*profile)
     print(prf.id, prf.username, prf.dob, prf.email)
 
-
+connection.execute("DELETE FROM profiles WHERE id = 10")
+connection.commit()
 connection.close()
